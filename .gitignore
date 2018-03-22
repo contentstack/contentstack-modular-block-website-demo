@@ -1,0 +1,7 @@
+.idea/*
+_logs/*
+node_modules/*
+_content/*
+*.directory
+config/development.js
+config/production.js

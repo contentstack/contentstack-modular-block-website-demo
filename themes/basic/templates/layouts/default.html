@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>{{entry.title}}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/css/owlcarouselmin.css">
+    <link type="text/css" rel="stylesheet" href="/static/css/style.css">
+
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/static/js/script.js"></script>
+ 
+</head>
+<body>
+    <div class="main-wrapper">
+     <div class="overlay"></div>
+    {% include "partials/header.html" %}
+
+    {% block content %}{% endblock %}
+
+    {% include "partials/footer.html" %}
+    </div>    
+</body>
+</html>
