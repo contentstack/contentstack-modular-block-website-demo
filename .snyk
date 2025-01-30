@@ -1,0 +1,50 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - contentstack-express > socket.io-client > debug:
+        patched: '2025-01-30T20:48:25.552Z'
+        id: 'npm:debug:20170905'
+        path: contentstack-express > socket.io-client > debug
+    - contentstack-express > socket.io-client > engine.io-client > debug:
+        patched: '2025-01-30T20:48:25.552Z'
+        id: 'npm:debug:20170905'
+        path: contentstack-express > socket.io-client > engine.io-client > debug
+    - contentstack-express > socket.io-client > socket.io-parser > debug:
+        patched: '2025-01-30T20:48:25.552Z'
+        id: 'npm:debug:20170905'
+        path: contentstack-express > socket.io-client > socket.io-parser > debug
+  'npm:engine.io-client:20160426':
+    - contentstack-express > socket.io-client > engine.io-client:
+        patched: '2025-01-30T20:48:25.552Z'
+        id: 'npm:engine.io-client:20160426'
+        path: contentstack-express > socket.io-client > engine.io-client
+  SNYK-JS-LODASH-567746:
+    - contentstack-express > lodash:
+        patched: '2025-01-30T20:48:25.552Z'
+        id: SNYK-JS-LODASH-567746
+        path: contentstack-express > lodash
+  'npm:ms:20170412':
+    - contentstack-express > socket.io-client > debug > ms:
+        patched: '2025-01-30T20:48:25.552Z'
+        id: 'npm:ms:20170412'
+        path: contentstack-express > socket.io-client > debug > ms
+    - contentstack-express > socket.io-client > engine.io-client > debug > ms:
+        patched: '2025-01-30T20:48:25.552Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          contentstack-express > socket.io-client > engine.io-client > debug >
+          ms
+    - contentstack-express > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2025-01-30T20:48:25.552Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          contentstack-express > socket.io-client > socket.io-parser > debug >
+          ms
+  'npm:ws:20160920':
+    - contentstack-express > socket.io-client > engine.io-client > ws:
+        patched: '2025-01-30T20:48:25.552Z'
+        id: 'npm:ws:20160920'
+        path: contentstack-express > socket.io-client > engine.io-client > ws
